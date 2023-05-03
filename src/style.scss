@@ -1,2 +1,77 @@
 @import url(./reset.scss);
 @import url(./locomotive-scroll.css);
+
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bold;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Bold.woff),
+    url(./assets/fonts/ggsans-Bold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bold;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-BoldItalic.woff),
+    url(./assets/fonts/ggsans-BoldItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bolder;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-ExtraBold.woff),
+    url(./assets/fonts/ggsans-ExtraBold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bolder;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-ExtraBoldItalic.woff),
+    url(./assets/fonts/ggsans-ExtraBoldItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 500;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Medium.woff),
+    url(./assets/fonts/ggsans-Medium.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 500;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-MediumItalic.woff),
+    url(./assets/fonts/ggsans-MediumItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: normal;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Normal.woff),
+    url(./assets/fonts/ggsans-Normal.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: normal;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-NormalItalic.woff),
+    url(./assets/fonts/ggsans-NormalItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 600;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Semibold.woff),
+    url(./assets/fonts/ggsans-Semibold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 600;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-SemiboldItalic.woff),
+    url(./assets/fonts/ggsans-SemiboldItalic.woff2);
+}
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

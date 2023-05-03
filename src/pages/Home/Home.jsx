@@ -1,10 +1,10 @@
-import React from 'react'
-import './Home.scss'
+import PreLoader from "../../components/PreLoader";
+import "./Home.scss";
 
 export default function Home() {
   return (
     <>
-        <p>Home</p>
+      <PreLoader />
     </>
-  )
+  );
 }

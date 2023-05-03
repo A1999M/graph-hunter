@@ -1,0 +1,30 @@
+$preLoaderBgc: #9bfa00;
+
+.greenBg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  background-color: $preLoaderBgc;
+  align-items: center;
+  justify-content: center;
+  .preloader-title {
+    color: black;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-family: "GH Serif";
+    font-weight: 500;
+    word-spacing: 1px;
+    span {
+      font-family: "Times New Roman", Times, serif;
+      font-weight: 100 !important;
+      opacity: 0.8;
+    }
+  }
+  .fadeBg {
+    position: absolute;
+    top: 47rem;
+    left: -1rem;
+    width: 110%;
+    height: 200%;
+  }
+}
