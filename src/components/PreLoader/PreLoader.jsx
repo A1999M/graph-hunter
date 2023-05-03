@@ -14,6 +14,7 @@ export default function PreLoader() {
     gsap.registerPlugin(SplitText);
     let tl = gsap.timeline();
     let splitTitle = new SplitText(preLoaderRef.current, { type: "chars" });
+
     tl.from(splitTitle.chars, {
       opacity: 0,
       clipPath: "inset(0% 0% 100% 0%)",
@@ -44,14 +45,29 @@ export default function PreLoader() {
     tl.to(
       greenBg.current,
       {
-        backgroundColor: "#000",
+        backgroundColor: "transparent",
         duration: 0.3,
       },
       "<0.43"
     );
-    tl.to(document.body, {
-      overflowY: "auto",
-    });
+    tl.to(
+      document.body,
+      {
+        overflowY: "auto",
+        background: "#000",
+        duration: 0.2,
+      },
+      "<.2"
+    );
+    tl.to(
+      greenBg.current,
+      {
+        display: "none",
+        visibility: "hidden",
+        duration: 0.1,
+      },
+      "<.2"
+    );
   });
 
   return (
