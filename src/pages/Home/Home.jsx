@@ -4,7 +4,11 @@ import "./Home.scss";
 export default function Home() {
   return (
     <>
-      <PreLoader />
+      <div className="container-fluid">
+        <div className="row">
+          <PreLoader />
+        </div>
+      </div>
     </>
   );
 }
