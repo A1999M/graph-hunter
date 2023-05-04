@@ -1,0 +1,46 @@
+.wrapper-image {
+  overflow: hidden;
+  cursor: pointer;
+  width: 85%;
+  margin: 0 auto;
+  img.image-work {
+    width: 100%;
+    transform: scale(1);
+  }
+}
+.wrapper-texts {
+  margin-left: 4rem;
+  margin-top: 0.4rem;
+  .titles {
+    overflow: hidden;
+    position: relative;
+    top: 1.2rem;
+    height: 25px;
+    .titleWork {
+      position: absolute;
+      top: 0rem;
+      left: 0rem;
+      color: white;
+      font-size: 23px;
+      text-transform: uppercase;
+      font-family: "GH Serif";
+      font-weight: bold;
+    }
+    .greenTitle {
+      @extend .titleWork;
+      position: absolute;
+      top: 2rem;
+      left: 0rem;
+      color: #9bfa00;
+    }
+  }
+
+  .descWork {
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "GH Serif";
+    margin-top: 2rem;
+    word-spacing: 2.5px;
+  }
+}

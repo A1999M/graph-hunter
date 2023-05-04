@@ -47,7 +47,7 @@ export default function PreLoader() {
     tl.to(
       fadeRef.current,
       {
-        top: "-50rem",
+        top: "-90rem",
         duration: 1,
         ease: "Power4.easeOut",
       },
@@ -59,7 +59,7 @@ export default function PreLoader() {
         backgroundColor: "transparent",
         duration: 0.01,
       },
-      "<0.44"
+      "<0.43"
     );
     tl.to(
       document.body,
