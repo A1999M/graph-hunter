@@ -82,3 +82,18 @@ body {
 .mt-10rem {
   margin-top: 10rem;
 }
+
+.bg-white {
+  background-color: aliceblue;
+  height: 100vh;
+}
+.help-paragraph {
+  color: transparent;
+  visibility: hidden;
+  background-color: transparent;
+  p {
+    visibility: hidden;
+    color: transparent;
+    background-color: transparent;
+  }
+}

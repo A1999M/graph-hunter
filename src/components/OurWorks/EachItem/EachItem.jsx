@@ -88,6 +88,8 @@ export default function EachItem({ title, desc, imageSrc }) {
   return (
     <>
       <motion.div
+        data-scroll
+        data-scroll-offset="-100"
         onMouseEnter={handlerHover}
         onMouseLeave={handlerMouseLeave}
         className="wrapper-all mb-5"
