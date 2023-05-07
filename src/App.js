@@ -1,17 +1,33 @@
-import { useRef } from "react";
+import { useLayoutEffect } from "react";
+import Scrollbar from "smooth-scrollbar";
+import Overscrollplugin from "smooth-scrollbar/plugins/overscroll";
 import Home from "./pages/Home";
-import { LocomotiveScrollProvider } from "react-locomotive-scroll";
 
 export default function App() {
-  let containerRef = useRef();
+  let options = {
+    damping: 0.08,
+    plugins: {
+      overscroll: {
+        enable: true,
+        effect: "bounce",
+        damping: 0.1,
+        maxOverscroll: 150,
+      },
+    },
+  };
+  useLayoutEffect(() => {
+    Scrollbar.use(Overscrollplugin);
+    Scrollbar.init(document.getElementById("my-scroller"), options);
+  });
+
   return (
-    <LocomotiveScrollProvider
-      options={{ smooth: true, multiplier: 0.7 }}
-      containerRef={containerRef}
-    >
-      <main data-scroll-container ref={containerRef}>
+    <>
+      <div
+        style={{ width: "100vw", height: "100vh", overflow: "auto" }}
+        id="my-scroller"
+      >
         <Home />
-      </main>
-    </LocomotiveScrollProvider>
+      </div>
+    </>
   );
 }

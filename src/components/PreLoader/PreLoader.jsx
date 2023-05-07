@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import fadeBg from "../../assets/images/fade.png";
@@ -21,7 +21,7 @@ export default function PreLoader() {
   let logoRef = useRef();
   let descRef = useRef();
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     gsap.registerPlugin(SplitText);
     let tl = gsap.timeline();
     let splitTitle = new SplitText(preLoaderRef.current, { type: "chars" });
@@ -47,7 +47,7 @@ export default function PreLoader() {
     tl.to(
       fadeRef.current,
       {
-        top: "-90rem",
+        top: "-47rem",
         duration: 1,
         ease: "Power4.easeOut",
       },
@@ -57,6 +57,9 @@ export default function PreLoader() {
       greenBg.current,
       {
         backgroundColor: "transparent",
+        display: "none",
+        visibility: "hidden",
+        duration: 0.1,
         duration: 0.01,
       },
       "<0.43"
@@ -88,7 +91,7 @@ export default function PreLoader() {
         duration: 0.3,
         ease: "Back.easeOut",
       },
-      "<0.2"
+      "<0.05"
     );
     tl.to(
       studioRef.current,
@@ -96,10 +99,10 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.3,
-        ease: "Back.easeOut",
+        duration: 0.4,
+        ease: "Power3.easeOut",
       },
-      "<.08"
+      "<.1"
     );
     tl.to(
       archiveRef.current,
@@ -107,10 +110,10 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.3,
-        ease: "Back.easeOut",
+        duration: 0.4,
+        ease: "Power3.easeOut",
       },
-      "<.08"
+      "<.1"
     );
     tl.to(
       jobsRef.current,
@@ -118,10 +121,10 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.3,
-        ease: "Back.easeOut",
+        duration: 0.4,
+        ease: "Power3.easeOut",
       },
-      "<.08"
+      "<.1"
     );
     tl.to(
       contactRef.current,
@@ -129,12 +132,12 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.3,
-        ease: "Back.easeOut",
+        duration: 0.4,
+        ease: "Power3.easeOut",
       },
-      "<.08"
+      "<.1"
     );
-    // landing animations
+    // // landing animations
     tl.to(
       logoRef.current,
       {
