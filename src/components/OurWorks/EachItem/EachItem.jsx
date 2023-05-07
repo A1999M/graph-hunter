@@ -1,13 +1,16 @@
-import { useRef } from "react";
+import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import "./EachItem.scss";
 
-export default function EachItem({ title, desc, imageSrc }) {
+export default function EachItem({ title, desc, imageSrc, bgColor }) {
+  let [overLay, setOverLay] = useState(true);
+
   let imageWrapper = useRef();
   let imageRef = useRef();
   let titleWorkRef = useRef();
   let greenTitle = useRef();
+  let overlay = useRef();
 
   //   start hover effect
   let handlerHover = () => {
@@ -85,16 +88,46 @@ export default function EachItem({ title, desc, imageSrc }) {
     );
   };
 
+  let hiddenOverlay = () => {
+    let tl = gsap.timeline();
+
+    tl.fromTo(
+      overlay.current,
+      { clipPath: "inset(0% 0% 0% 0%)" },
+      {
+        clipPath: "inset(0% 0% 100% 0%)",
+        duration: 1,
+        ease: "Power4.easeOut",
+      }
+    );
+    tl.fromTo(
+      imageRef.current,
+      { scale: 1.5 },
+      {
+        scale: 1,
+        duration: 1.3,
+        ease: "Power2.easeOut",
+      },
+      "<0"
+    );
+    setOverLay(false);
+  };
+
   return (
     <>
       <motion.div
-        data-scroll
-        data-scroll-offset="-100"
         onMouseEnter={handlerHover}
         onMouseLeave={handlerMouseLeave}
+        onViewportEnter={overLay ? hiddenOverlay : null}
+        viewport={{ amount: 0.6, once: true }}
         className="wrapper-all mb-5"
       >
         <div ref={imageWrapper} className="wrapper-image">
+          <div
+            ref={overlay}
+            style={{ backgroundColor: bgColor }}
+            className="overlayBh"
+          ></div>
           <img
             className="image-work"
             ref={imageRef}

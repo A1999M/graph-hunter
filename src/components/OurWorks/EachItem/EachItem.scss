@@ -3,9 +3,18 @@
   cursor: pointer;
   width: 85%;
   margin: 0 auto;
+  position: relative;
   img.image-work {
     width: 100%;
     transform: scale(1);
+  }
+  .overlayBh {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+    z-index: 5;
+    height: 100%;
   }
 }
 .wrapper-texts {

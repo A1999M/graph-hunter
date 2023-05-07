@@ -15,6 +15,7 @@ export default function OurWorks() {
           title={"knbv"}
           imageSrc={knbv}
           desc="A BRAND NEW LOOK FOR TOTO KNVB BEKER"
+          bgColor={"#0e2329"}
         />
       </div>
       <div className="col-12 col-lg-6 mt-10rem">
@@ -22,6 +23,7 @@ export default function OurWorks() {
           title={"ea sports"}
           imageSrc={comicBoy}
           desc="ARTWORK FOR FIFA GLOBAL SERIES '22"
+          bgColor="#F36329"
         />
       </div>
       <div className="col-12 col-lg-6 mt-5">
@@ -29,6 +31,7 @@ export default function OurWorks() {
           title={"AFC AJAX"}
           imageSrc={ajax}
           desc="CARIBBEAN INSPIRED DESIGN FOR FUTURE GOALS"
+          bgColor={"#A4A415"}
         />
       </div>
       <div className="col-12 col-lg-6 mt-5">
@@ -36,6 +39,7 @@ export default function OurWorks() {
           title={"KNVB NIKE"}
           imageSrc={nike}
           desc="CELEBRATING 25 YEARS OF JUST DOING IT"
+          bgColor={"#FF5000"}
         />
       </div>
       <div className="col-12 col-lg-6 mt-5">
@@ -43,6 +47,7 @@ export default function OurWorks() {
           title={"UEFA"}
           imageSrc={moon}
           desc="ILLUSTRATION TOOLKIT FOR FUTSAL EURO 2022"
+          bgColor={"#257DB8"}
         />
       </div>
       <div className="col-12 col-lg-6 mt-5">
@@ -50,6 +55,7 @@ export default function OurWorks() {
           title={"EREDIVISIE"}
           imageSrc={phone}
           desc="A NEW SEASON OF ONE TO WATCH"
+          bgColor={"#DEF4E3"}
         />
       </div>
     </>
