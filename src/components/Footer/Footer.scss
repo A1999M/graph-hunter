@@ -1,0 +1,234 @@
+.title-footer {
+  font-size: 7.5rem;
+  margin-top: 4rem;
+  margin-left: 3rem;
+  font-weight: 500;
+  font-family: "GH Serif";
+  span {
+    font-family: serif, Times, serif;
+    font-weight: 100;
+  }
+}
+
+.c-border {
+  border-top: 1px solid black;
+  .wrapper-email {
+    position: relative;
+    height: 59px;
+    width: 715px;
+    top: 2rem;
+    left: 5rem;
+    overflow: hidden;
+    &:hover {
+      a {
+        &:nth-child(1) {
+          top: -5rem;
+        }
+        &:nth-child(2) {
+          top: 0rem;
+        }
+      }
+    }
+    a {
+      position: absolute;
+      top: 0rem;
+      left: 0rem;
+      font-size: 3rem;
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      border-bottom: 1.5px solid black;
+      text-transform: uppercase;
+      font-family: "GH Serif";
+      font-weight: 500;
+      padding-bottom: 10px;
+      transition: all 0.2s ease-out;
+      &:nth-child(2) {
+        color: #6405ff;
+        top: 5rem;
+      }
+    }
+  }
+  p {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "GH Serif";
+  }
+}
+
+//
+
+.title-our-officers {
+  margin-left: 7rem;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.wrapper-descs {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  .left-desc {
+    margin-right: 4rem;
+    .title-left-desc-footer {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: "GH SErif";
+    }
+    .desc-left-desc-footer {
+      font-size: 20px;
+      margin-top: 1rem;
+      line-height: 25px;
+      font-family: "GH Serif";
+      font-weight: 600;
+      width: 200px;
+    }
+  }
+  .right-desc {
+    .title-right-desc-footer {
+      font-size: 22px;
+      font-weight: 600;
+      font-family: "GH SErif";
+    }
+    .desc-right-desc-footer {
+      font-size: 20px;
+      margin-top: 1rem;
+      line-height: 25px;
+      font-family: "GH Serif";
+      font-weight: 600;
+      width: 175px;
+    }
+  }
+}
+
+.title-social {
+  font-size: 20px;
+  text-align: end;
+  margin-right: 5rem;
+  text-transform: uppercase;
+}
+.footer-nav {
+  text-align: end;
+  margin-right: 5.2rem;
+  margin-top: 2rem;
+  div {
+    width: 80px;
+    margin-left: auto;
+    position: relative;
+    margin-top: 0.5rem;
+    height: 20px;
+    overflow: hidden;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 4px;
+
+    p {
+      position: absolute;
+      cursor: pointer;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-family: "GH Serif";
+      transition: all 0.26s ease-out;
+      font-weight: 600;
+      color: black;
+    }
+    .linkedin {
+      top: 0;
+      right: 0;
+    }
+    .purple-linkedin {
+      top: 2rem;
+      right: 0;
+      color: #6405ff;
+    }
+    .instagram {
+      top: 0;
+      right: 0;
+    }
+    .purple-instagram {
+      top: 2rem;
+      right: 0;
+      color: #6405ff;
+    }
+    .twitter {
+      top: 0;
+      right: 0;
+    }
+    .purple-twitter {
+      top: 2rem;
+      right: 0;
+      color: #6405ff;
+    }
+  }
+  .footer-nav-items-linkedin {
+    &:hover {
+      .linkedin {
+        top: -3rem;
+      }
+      .purple-linkedin {
+        top: 0rem;
+      }
+    }
+  }
+  .footer-nav-items-instagram {
+    width: 100px;
+    top: 0.3rem;
+    &:hover {
+      .instagram {
+        top: -3rem;
+      }
+      .purple-instagram {
+        top: 0rem;
+      }
+    }
+  }
+  .footer-nav-items-twitter {
+    width: 73px;
+    top: 0.5rem;
+    &:hover {
+      .twitter {
+        top: -3rem;
+      }
+      .purple-twitter {
+        top: 0rem;
+      }
+    }
+  }
+}
+
+.wrapper-links {
+  position: relative;
+  height: 41px;
+  width: 200px;
+  left: 50%;
+  margin-top: 30%;
+  overflow: hidden;
+  &:hover {
+    .footer-link-to-contact {
+      top: -3.5rem;
+    }
+    .footer-link-to-contact-purple {
+      top: 0rem;
+    }
+  }
+  .footer-link-to-contact {
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    display: inline-block;
+    font-size: 2.5rem;
+    color: black;
+    font-family: serif;
+    text-decoration: none;
+    transition: all 0.25s ease-out;
+    border-bottom: 1px solid black;
+  }
+  .footer-link-to-contact-purple {
+    @extend .footer-link-to-contact;
+    color: #6405ff;
+    top: 2.5rem;
+  }
+}
