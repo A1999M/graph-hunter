@@ -22,10 +22,7 @@ export default function App() {
 
   return (
     <>
-      <div
-        style={{ width: "100vw", height: "100vh", overflow: "auto" }}
-        id="my-scroller"
-      >
+      <div style={{ width: "100vw", overflow: "auto" }} id="my-scroller">
         <Home />
       </div>
     </>

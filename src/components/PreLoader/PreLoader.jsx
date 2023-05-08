@@ -9,10 +9,7 @@ export default function PreLoader() {
   let fadeRef = useRef();
   let greenBg = useRef();
   let workRef = useRef();
-  let studioRef = useRef();
-  let archiveRef = useRef();
   let jobsRef = useRef();
-  let contactRef = useRef();
   let takeRef = useRef();
   let number16Ref = useRef();
   let lookRef = useRef();
@@ -22,6 +19,7 @@ export default function PreLoader() {
   let descRef = useRef();
 
   useLayoutEffect(() => {
+    console.log(document.getElementById("my-scroller"));
     gsap.registerPlugin(SplitText);
     let tl = gsap.timeline();
     let splitTitle = new SplitText(preLoaderRef.current, { type: "chars" });
@@ -88,32 +86,10 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.3,
+        duration: 0.5,
         ease: "Back.easeOut",
       },
-      "<0.05"
-    );
-    tl.to(
-      studioRef.current,
-      {
-        opacity: 1,
-        y: 0,
-        clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.4,
-        ease: "Power3.easeOut",
-      },
-      "<.1"
-    );
-    tl.to(
-      archiveRef.current,
-      {
-        opacity: 1,
-        y: 0,
-        clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.4,
-        ease: "Power3.easeOut",
-      },
-      "<.1"
+      "<0.1"
     );
     tl.to(
       jobsRef.current,
@@ -121,18 +97,7 @@ export default function PreLoader() {
         opacity: 1,
         y: 0,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.4,
-        ease: "Power3.easeOut",
-      },
-      "<.1"
-    );
-    tl.to(
-      contactRef.current,
-      {
-        opacity: 1,
-        y: 0,
-        clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.4,
+        duration: 0.5,
         ease: "Power3.easeOut",
       },
       "<.1"
@@ -219,6 +184,14 @@ export default function PreLoader() {
       },
       "<0.1"
     );
+    tl.to(
+      document.getElementById("my-scroller"),
+      {
+        height: "100vh",
+        duration: 0.1,
+      },
+      "<0"
+    );
   });
 
   return (
@@ -252,26 +225,17 @@ export default function PreLoader() {
           <li ref={workRef} className="nav-items">
             work
           </li>
-          <li ref={studioRef} className="nav-items">
-            studio
-          </li>
-          <li ref={archiveRef} className="nav-items">
-            archive
-          </li>
           <li ref={jobsRef} className="nav-items">
             jobs
           </li>
-          <li ref={contactRef} className="nav-items">
-            contact
-          </li>
         </ul>
       </div>
-      <div className="col-6 col-lg-6">
+      <div className="col-6 col-lg-6 mt-5rem">
         <span ref={takeRef} className="take">
           take a
         </span>
       </div>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-lg-6 mt-5rem">
         <span ref={number16Ref} className="number16">
           16'
         </span>

@@ -1,6 +1,15 @@
 @import url(./reset.scss);
 @import url(./locomotive-scroll.css);
 
+body {
+  background-color: #000;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 @font-face {
   font-family: "GH Serif";
   font-weight: bold;
@@ -71,14 +80,7 @@
   src: url(./assets/fonts/ggsans-SemiboldItalic.woff),
     url(./assets/fonts/ggsans-SemiboldItalic.woff2);
 }
-body {
-  overflow-x: hidden;
-  overflow-y: hidden;
-  background-color: #000;
-  &::-webkit-scrollbar {
-    display: none;
-  }
-}
+
 .mt-10rem {
   margin-top: 10rem;
 }
@@ -87,13 +89,7 @@ body {
   background-color: aliceblue;
   height: 100vh;
 }
-.help-paragraph {
-  color: transparent;
-  visibility: hidden;
-  background-color: transparent;
-  p {
-    visibility: hidden;
-    color: transparent;
-    background-color: transparent;
-  }
+
+.mt-5rem {
+  margin-top: 5rem;
 }

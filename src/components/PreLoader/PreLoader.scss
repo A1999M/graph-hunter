@@ -34,24 +34,35 @@ $preLoaderBgc: #9bfa00;
 .wrapper-nav {
   display: flex;
   align-items: flex-end;
-  justify-content: center;
-  flex-direction: column;
+  justify-content: flex-end;
+  flex-direction: row;
   margin-right: 6rem;
   margin-top: 2rem;
   list-style: none;
   z-index: 5;
   //  nav items style
-  li.nav-items {
-    color: white;
+  .nav-items {
+    color: transparent;
+    background: linear-gradient(to right, #fff 50%, #9bfa00 50%);
+    background-repeat: no-repeat;
+    background-position: 0rem;
+    background-size: 500%;
+    background-clip: text;
     text-transform: uppercase;
     font-family: "GH Serif";
     font-size: 25px;
-    padding: 0.5rem;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
     cursor: pointer;
     opacity: 0;
     clip-path: inset(0% 0% 100% 0%);
     transform: translateY(30px);
+    position: relative;
     z-index: 5;
+    transition: all 0.6s ease;
+    &:hover {
+      background-position: -15rem;
+    }
   }
 }
 
