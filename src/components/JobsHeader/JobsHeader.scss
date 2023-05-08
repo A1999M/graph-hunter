@@ -1,0 +1,65 @@
+.join {
+  color: black;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "GH Serif";
+  font-weight: 500;
+  margin-left: 2rem;
+}
+.collective {
+  color: #000;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 30rem;
+  font-weight: 100;
+}
+.desc-jobHeader {
+  color: #000;
+  font-size: 18px;
+  font-family: "GH Serif";
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 3rem;
+  width: 375px;
+  line-height: 31px;
+  opacity: 1;
+}
+
+.wrapper-nav-jobs {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 6rem;
+  margin-top: 4rem;
+  list-style: none;
+  //  nav items style
+  .nav-items {
+    color: transparent;
+    background: linear-gradient(to right, #000 50%, #bd00bd 50%);
+    background-repeat: no-repeat;
+    background-position: 0rem;
+    background-size: 500%;
+    background-clip: text;
+    text-transform: uppercase;
+    font-family: "GH Serif";
+    font-size: 25px;
+    padding: 0.5rem 0;
+    margin: 0 0.5rem;
+    cursor: pointer;
+    transition: all 0.7s ease;
+    &:hover {
+      background-position: -14rem;
+    }
+  }
+}
+.wrapper-logo-jobs {
+  svg {
+    height: 12.5%;
+    width: 12.5%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+}

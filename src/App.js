@@ -1,7 +1,9 @@
+import Home from "./pages/Home";
+import OurJobs from "./pages/OurJobs";
 import { useLayoutEffect } from "react";
 import Scrollbar from "smooth-scrollbar";
+import { Routes, Route } from "react-router";
 import Overscrollplugin from "smooth-scrollbar/plugins/overscroll";
-import Home from "./pages/Home";
 
 export default function App() {
   let options = {
@@ -23,7 +25,11 @@ export default function App() {
   return (
     <>
       <div style={{ width: "100vw", overflow: "auto" }} id="my-scroller">
-        <Home />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/jobs" element={<OurJobs />} />
+          <Route />
+        </Routes>
       </div>
     </>
   );

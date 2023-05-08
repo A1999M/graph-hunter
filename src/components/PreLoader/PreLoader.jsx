@@ -198,7 +198,8 @@ export default function PreLoader() {
     <>
       <div ref={greenBg} className="col-12 greenBg">
         <p ref={preLoaderRef} className="preloader-title">
-          the creative studio <span>in sports</span>{" "}
+          the<span>&nbsp;</span>creative<span>&nbsp;</span>studio{" "}
+          <span>in sports</span>{" "}
         </p>
         <img ref={fadeRef} className="fadeBg" src={fadeBg} alt={fadeBg} />
       </div>
