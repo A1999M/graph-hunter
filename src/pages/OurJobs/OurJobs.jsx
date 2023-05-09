@@ -1,4 +1,5 @@
 import JobsHeader from "../../components/JobsHeader";
+import Hired from "../../components/Hired";
 import "./OurJobs.scss";
 
 export default function OurJobs() {
@@ -7,6 +8,9 @@ export default function OurJobs() {
       <div className="container-fluid jobs">
         <div className="row">
           <JobsHeader />
+        </div>
+        <div className="row">
+          <Hired />
         </div>
       </div>
     </>
