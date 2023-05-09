@@ -11,7 +11,16 @@
 }
 
 .c-border {
-  border-top: 1px solid black;
+  position: relative;
+  &::after {
+    position: absolute;
+    top: 0rem;
+    left: 6rem;
+    content: "";
+    width: 89%;
+    height: 2px;
+    background-color: black;
+  }
   .wrapper-email {
     position: relative;
     height: 59px;
@@ -51,7 +60,7 @@
   }
   p {
     margin-left: 5rem;
-    margin-top: 2rem;
+    margin-top: 5rem;
     font-size: 17px;
     text-transform: uppercase;
     font-family: "GH Serif";
@@ -61,7 +70,7 @@
 //
 
 .title-our-officers {
-  margin-left: 7rem;
+  margin-left: 5rem;
   text-transform: uppercase;
   font-size: 20px;
 }
@@ -73,7 +82,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   .left-desc {
-    margin-right: 4rem;
+    margin-right: 10rem;
     .title-left-desc-footer {
       font-size: 22px;
       font-weight: 600;

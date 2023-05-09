@@ -1,4 +1,5 @@
 import JobsHeader from "../../components/JobsHeader";
+import Footer from "../../components/Footer";
 import Hired from "../../components/Hired";
 import RecentWorks from "../../components/RecentWorks";
 import "./OurJobs.scss";
@@ -14,6 +15,9 @@ export default function OurJobs() {
           <Hired />
         </div>
         <RecentWorks />
+        <div className="row">
+          <Footer />
+        </div>
       </div>
     </>
   );

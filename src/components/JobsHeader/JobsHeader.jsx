@@ -79,20 +79,16 @@ export default function JobsHeader() {
       {
         opacity: 1,
         clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.5,
-        ease: CustomEase.create(
-          "custom",
-          "M0,0,C0,0,0.013,0.597,0.294,0.848,0.52,1.05,1,1,1,1"
-        ),
+        duration: 0.4,
+        ease: "Power4.easeOut",
       },
       "<.2"
     );
     tl.fromTo(
       jobWorkRef.current,
-      { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+      { opacity: 0 },
       {
         opacity: 1,
-        clipPath: "inset(0% 0% 0% 0%)",
         duration: 0.2,
         ease: "Power4.easeOut",
       },
@@ -100,10 +96,9 @@ export default function JobsHeader() {
     );
     tl.fromTo(
       jobLinkRef.current,
-      { opacity: 0, clipPath: "inset(0% 100% 0% 0%)" },
+      { opacity: 0 },
       {
         opacity: 1,
-        clipPath: "inset(0% 0% 0% 0%)",
         duration: 0.2,
         ease: "Power4.easeOut",
       },

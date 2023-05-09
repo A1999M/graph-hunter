@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="col-12 col-lg-12 c-border">
+      <div className="col-12 col-lg-12 c-border mt-8rem">
         <p>SEND US AN EMAIL</p>
         <div className="wrapper-email">
           <a href="##">HELLO@GRAPHICHUNTERS.COM</a>
@@ -26,41 +26,37 @@ export default function Footer() {
         </div>
       </div>
       {/* footer's our officers socials  */}
-      <div className="container">
-        <div className="row">
-          <div className="col-6">
-            <p className="title-our-officers">our officers</p>
-            <div className="wrapper-descs">
-              <div className="left-desc">
-                <p className="title-left-desc-footer">DEN BOSCH</p>
-                <p className="desc-left-desc-footer">
-                  Sint Jorisstraat 26 5211 HB, Den Bosch The Netherlands
-                </p>
-              </div>
-              <div className="right-desc">
-                <p className="title-right-desc-footer">GELEEN</p>
-                <p className="desc-right-desc-footer">
-                  Hofdwarsweg 5B 6161 DE, Geleen The Netherlands
-                </p>
-              </div>
-            </div>
+      <div className="col-6 mt-8rem">
+        <p className="title-our-officers">our officers</p>
+        <div className="wrapper-descs">
+          <div className="left-desc">
+            <p className="title-left-desc-footer">DEN BOSCH</p>
+            <p className="desc-left-desc-footer">
+              Sint Jorisstraat 26 5211 HB, Den Bosch The Netherlands
+            </p>
           </div>
-          <div className="col-6">
-            <p className="title-social">social</p>
-            <div className="footer-nav">
-              <div className="footer-nav-items-linkedin">
-                <p className="linkedin">linkedin</p>
-                <p className="purple-linkedin">linkedin</p>
-              </div>
-              <div className="footer-nav-items-instagram">
-                <p className="instagram">instagram</p>
-                <p className="purple-instagram">instagram</p>
-              </div>
-              <div className="footer-nav-items-twitter">
-                <p className="twitter">twitter</p>
-                <p className="purple-twitter">twitter</p>
-              </div>
-            </div>
+          <div className="right-desc">
+            <p className="title-right-desc-footer">GELEEN</p>
+            <p className="desc-right-desc-footer">
+              Hofdwarsweg 5B 6161 DE, Geleen The Netherlands
+            </p>
+          </div>
+        </div>
+      </div>
+      <div className="col-6 mt-8rem mb-5rem">
+        <p className="title-social">social</p>
+        <div className="footer-nav">
+          <div className="footer-nav-items-linkedin">
+            <p className="linkedin">linkedin</p>
+            <p className="purple-linkedin">linkedin</p>
+          </div>
+          <div className="footer-nav-items-instagram">
+            <p className="instagram">instagram</p>
+            <p className="purple-instagram">instagram</p>
+          </div>
+          <div className="footer-nav-items-twitter">
+            <p className="twitter">twitter</p>
+            <p className="purple-twitter">twitter</p>
           </div>
         </div>
       </div>
