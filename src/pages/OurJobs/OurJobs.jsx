@@ -1,5 +1,6 @@
 import JobsHeader from "../../components/JobsHeader";
 import Hired from "../../components/Hired";
+import RecentWorks from "../../components/RecentWorks";
 import "./OurJobs.scss";
 
 export default function OurJobs() {
@@ -12,6 +13,7 @@ export default function OurJobs() {
         <div className="row">
           <Hired />
         </div>
+        <RecentWorks />
       </div>
     </>
   );

@@ -1,0 +1,42 @@
+.recent-works {
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "GH Serif";
+  text-transform: uppercase;
+  margin-left: 55px;
+}
+.wrapper-overview {
+  position: relative;
+  overflow: hidden;
+  height: 36px;
+  width: 165px;
+  margin-left: auto;
+  margin-right: 3.5rem;
+  .overview {
+    cursor: pointer;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "GH Serif";
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    padding-bottom: 3px;
+    transition: all 0.3s ease-out;
+  }
+  .overview-purple {
+    @extend .overview;
+    color: #6405ff;
+    top: 3rem;
+  }
+  &:hover {
+    .overview {
+      top: -3rem;
+    }
+    .overview-purple {
+      top: 0rem;
+    }
+  }
+}
