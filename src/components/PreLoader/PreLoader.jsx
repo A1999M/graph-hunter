@@ -1,10 +1,14 @@
-import { useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef, useContext } from "react";
+import PreloaderContext from "../../context/Preloader";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import fadeBg from "../../assets/images/fade.png";
+import { NavLink } from "react-router-dom";
 import "./PreLoader.scss";
 
 export default function PreLoader() {
+  let [preLoader, setPreLoader] = useContext(PreloaderContext);
+
   let preLoaderRef = useRef();
   let fadeRef = useRef();
   let greenBg = useRef();
@@ -19,57 +23,68 @@ export default function PreLoader() {
   let descRef = useRef();
 
   useLayoutEffect(() => {
-    console.log(document.getElementById("my-scroller"));
     gsap.registerPlugin(SplitText);
     let tl = gsap.timeline();
     let splitTitle = new SplitText(preLoaderRef.current, { type: "chars" });
 
-    tl.from(splitTitle.chars, {
-      opacity: 0,
-      clipPath: "inset(0% 0% 100% 0%)",
-      y: 80,
-      stagger: 0.016,
-      ease: "Power4.easeOut",
-      duration: 0.8,
-      delay: 0.3,
-    });
-    tl.to(splitTitle.chars, {
-      opacity: 0,
-      clipPath: "inset(100% 0% 0% 0%)",
-      y: -40,
-      stagger: 0.016,
-      ease: "Power4.easeOut",
-      duration: 0.8,
-      delay: 0.3,
-    });
-    tl.to(
-      fadeRef.current,
-      {
-        top: "-47rem",
-        duration: 1,
+    if (preLoader) {
+      tl.from(splitTitle.chars, {
+        opacity: 0,
+        clipPath: "inset(0% 0% 100% 0%)",
+        y: 80,
+        stagger: 0.016,
         ease: "Power4.easeOut",
-      },
-      "<0.1"
-    );
-    tl.to(
-      greenBg.current,
-      {
-        backgroundColor: "transparent",
-        display: "none",
-        visibility: "hidden",
-        duration: 0.1,
-        duration: 0.01,
-      },
-      "<0.43"
-    );
-    tl.to(
-      document.body,
-      {
-        overflowY: "auto",
-        duration: 0.001,
-      },
-      "<0"
-    );
+        duration: 0.8,
+        delay: 0.3,
+      });
+      tl.to(splitTitle.chars, {
+        opacity: 0,
+        clipPath: "inset(100% 0% 0% 0%)",
+        y: -40,
+        stagger: 0.016,
+        ease: "Power4.easeOut",
+        duration: 0.8,
+        delay: 0.3,
+      });
+      tl.to(
+        fadeRef.current,
+        {
+          top: "-47rem",
+          duration: 1,
+          ease: "Power4.easeOut",
+        },
+        "<0.1"
+      );
+      tl.to(
+        greenBg.current,
+        {
+          backgroundColor: "transparent",
+          display: "none",
+          visibility: "hidden",
+          duration: 0.1,
+          duration: 0.01,
+        },
+        "<0.43"
+      );
+      tl.to(
+        document.body,
+        {
+          overflowY: "auto",
+          duration: 0.001,
+        },
+        "<0"
+      );
+    } else {
+      tl.to(
+        document.body,
+        {
+          overflowY: "auto",
+          duration: 0.001,
+          delay: 0.3,
+        },
+        "<0"
+      );
+    }
     tl.to(
       greenBg.current,
       {
@@ -84,23 +99,19 @@ export default function PreLoader() {
       workRef.current,
       {
         opacity: 1,
-        y: 0,
-        clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.5,
+        duration: 0.4,
         ease: "Back.easeOut",
       },
-      "<0.1"
+      "<0.05"
     );
     tl.to(
       jobsRef.current,
       {
         opacity: 1,
-        y: 0,
-        clipPath: "inset(0% 0% 0% 0%)",
-        duration: 0.5,
+        duration: 0.3,
         ease: "Power3.easeOut",
       },
-      "<.1"
+      "<.05"
     );
     // // landing animations
     tl.to(
@@ -192,16 +203,23 @@ export default function PreLoader() {
       },
       "<0"
     );
+
+    setTimeout(() => {
+      setPreLoader(false);
+    }, 4000);
   });
 
   return (
     <>
-      <div ref={greenBg} className="col-12 greenBg">
-        <p ref={preLoaderRef} className="preloader-title">
-          the creative studio <span>in sports</span>{" "}
-        </p>
-        <img ref={fadeRef} className="fadeBg" src={fadeBg} alt={fadeBg} />
-      </div>
+      {preLoader && (
+        <div ref={greenBg} className="col-12 greenBg">
+          <p ref={preLoaderRef} className="preloader-title">
+            the<span>&nbsp;</span>creative<span>&nbsp;</span>studio{" "}
+            <span>in sports</span>{" "}
+          </p>
+          <img ref={fadeRef} className="fadeBg" src={fadeBg} alt={fadeBg} />
+        </div>
+      )}
       <div className="logo col-6 col-lg-6">
         <div className="wrapper-logo">
           <a href="##">
@@ -222,11 +240,15 @@ export default function PreLoader() {
       </div>
       <div className="col-12 col-lg-6">
         <ul className="wrapper-nav">
-          <li ref={workRef} className="nav-items">
-            work
+          <li className="nav-items">
+            <NavLink ref={workRef} to={"/"}>
+              work
+            </NavLink>
           </li>
-          <li ref={jobsRef} className="nav-items">
-            jobs
+          <li className="nav-items">
+            <NavLink ref={jobsRef} to={"/jobs"}>
+              jobs
+            </NavLink>
           </li>
         </ul>
       </div>

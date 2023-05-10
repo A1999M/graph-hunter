@@ -3,7 +3,14 @@ import { motion } from "framer-motion";
 import { gsap } from "gsap";
 import "./EachItem.scss";
 
-export default function EachItem({ title, desc, imageSrc, bgColor }) {
+export default function EachItem({
+  title,
+  desc,
+  imageSrc,
+  bgColor,
+  color,
+  hoverColor,
+}) {
   let [overLay, setOverLay] = useState(true);
 
   let imageWrapper = useRef();
@@ -137,14 +144,24 @@ export default function EachItem({ title, desc, imageSrc, bgColor }) {
         </div>
         <div className="wrapper-texts">
           <div className="titles">
-            <p className="titleWork" ref={titleWorkRef}>
+            <p
+              style={{ color: color }}
+              className="titleWork"
+              ref={titleWorkRef}
+            >
               {title}
             </p>
-            <p ref={greenTitle} className="greenTitle">
+            <p
+              style={{ color: hoverColor }}
+              ref={greenTitle}
+              className="greenTitle"
+            >
               {title}
             </p>
           </div>
-          <p className="descWork">{desc}</p>
+          <p style={{ color: color }} className="descWork">
+            {desc}
+          </p>
         </div>
       </motion.div>
     </>
