@@ -220,7 +220,7 @@ export default function PreLoader() {
           <img ref={fadeRef} className="fadeBg" src={fadeBg} alt={fadeBg} />
         </div>
       )}
-      <div className="logo col-6 col-lg-6">
+      <div className="logo col-6 col-sm-6">
         <div className="wrapper-logo">
           <a href="##">
             <svg
@@ -238,7 +238,7 @@ export default function PreLoader() {
           </a>
         </div>
       </div>
-      <div className="col-12 col-lg-6">
+      <div className="col-6 col-sm-6">
         <ul className="wrapper-nav">
           <li className="nav-items">
             <NavLink ref={workRef} to={"/"}>
@@ -252,32 +252,35 @@ export default function PreLoader() {
           </li>
         </ul>
       </div>
-      <div className="col-6 col-lg-6 mt-5rem">
+
+      <div className="col-12 col-sm-6 mt-5rem">
         <span ref={takeRef} className="take">
           take a
         </span>
       </div>
-      <div className="col-12 col-lg-6 mt-5rem">
+
+      <div className="d-none d-sm-block col-sm-6 mt-5rem">
         <span ref={number16Ref} className="number16">
           16'
         </span>
       </div>
-      <div className="col-12 col-lg-6">
+
+      <div className="col-12 col-sm-8 col-md-6">
         <span ref={lookRef} className="look">
           look at
         </span>
       </div>
-      <div className="col-6 col-lg-6 text-end">
+      <div className="d-none d-sm-block col-sm-4 col-md-6 text-end">
         <span ref={number22Ref} className="number22">
           22'
         </span>
       </div>
-      <div className="col-12 col-lg-12">
+      <div className="col-12 col-sm-12">
         <span ref={ourWorkRef} className="ourWork">
           our work
         </span>
       </div>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-sm-6">
         <span ref={descRef} className="landing-desc">
           GraphicHunters develops distinctive brand and campaign styles.
         </span>
