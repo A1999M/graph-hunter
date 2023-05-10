@@ -2,6 +2,7 @@ import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import CustomEase from "../../plugins/CustomEase";
+import { NavLink } from "react-router-dom";
 import "./JobsHeader.scss";
 
 export default function JobsHeader() {
@@ -40,7 +41,7 @@ export default function JobsHeader() {
           "custom",
           "M0,0,C0,0,0.013,0.597,0.294,0.848,0.52,1.05,1,1,1,1"
         ),
-        delay: 0.3,
+        delay: 0.65,
       }
     );
     tl.from(
@@ -102,7 +103,7 @@ export default function JobsHeader() {
         duration: 0.2,
         ease: "Power4.easeOut",
       },
-      "<0.01"
+      "<0.1"
     );
   });
 
@@ -128,11 +129,15 @@ export default function JobsHeader() {
       </div>
       <div className="col-12 col-lg-6">
         <ul className="wrapper-nav-jobs">
-          <li ref={jobWorkRef} className="nav-items">
-            work
+          <li className="nav-items">
+            <NavLink ref={jobWorkRef} to={"/"}>
+              work
+            </NavLink>
           </li>
-          <li ref={jobLinkRef} className="nav-items">
-            jobs
+          <li className="nav-items">
+            <NavLink ref={jobLinkRef} to={"/jobs"}>
+              jobs
+            </NavLink>
           </li>
         </ul>
       </div>

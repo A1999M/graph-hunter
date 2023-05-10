@@ -37,21 +37,20 @@
   list-style: none;
   //  nav items style
   .nav-items {
-    color: transparent;
-    background: linear-gradient(to right, #000 50%, #bd00bd 50%);
-    background-repeat: no-repeat;
-    background-position: 0rem;
-    background-size: 500%;
-    background-clip: text;
-    text-transform: uppercase;
-    font-family: "GH Serif";
-    font-size: 25px;
-    padding: 0.5rem 0;
-    margin: 0 0.5rem;
-    cursor: pointer;
-    transition: all 0.7s ease;
-    &:hover {
-      background-position: -14rem;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      color: black;
+      text-transform: uppercase;
+      font-family: "GH Serif";
+      font-size: 25px;
+      padding: 0.5rem 0;
+      margin: 0 0.5rem;
+      cursor: pointer;
+      transition: all 0.35s ease;
+      &:hover {
+        color: #6405ff;
+      }
     }
   }
 }
