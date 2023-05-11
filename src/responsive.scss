@@ -1,4 +1,13 @@
 @media (max-width: 576px) {
+  .wrapper-texts .descWork {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 1.8rem;
+    }
+  }
   .take {
     font-size: 4.5rem;
     margin-left: 2rem;
@@ -41,6 +50,15 @@
   }
 }
 @media (min-width: 576px) {
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 1.8rem;
+    }
+  }
   .take {
     font-size: 4.5rem;
     margin-left: 2rem;
@@ -84,6 +102,15 @@
 }
 
 @media (min-width: 768px) {
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 2.5rem;
+    }
+  }
   .take {
     font-size: 4.5rem;
     margin-left: 2rem;
@@ -128,6 +155,19 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .wrapper-texts .descWork {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 2.5rem;
+    }
+  }
   .take {
     font-size: 6rem;
     margin-left: 4.3rem;
@@ -173,6 +213,11 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  .greenBg {
+    .preloader-title {
+      font-size: 3rem;
+    }
+  }
   .take {
     font-size: 7rem;
     margin-left: 4rem;
@@ -206,6 +251,12 @@
   .wrapper-nav {
     margin-top: 3.3rem;
     margin-right: 3rem;
+  }
+
+  //
+  .wrapper-texts .descWork {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 
@@ -328,6 +379,12 @@
           color: #9bfa00;
         }
       }
+    }
+  }
+
+  .greenBg {
+    .preloader-title {
+      font-size: 3rem;
     }
   }
 }
