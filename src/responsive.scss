@@ -1,4 +1,71 @@
 @media (max-width: 576px) {
+  // start footer section responsive
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 23rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 86%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 6%;
+    margin-top: 6%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 1.7rem;
+    }
+  }
+  .title-footer {
+    font-size: 4.6rem;
+    margin-left: 1rem;
+  }
+  // end footer section responsive
+
   .wrapper-texts .descWork {
     font-size: 15px;
     line-height: 26px;
@@ -50,6 +117,70 @@
   }
 }
 @media (min-width: 576px) {
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 23rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 86%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 3%;
+    margin-top: 6%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 1.7rem;
+    }
+  }
+  .title-footer {
+    font-size: 4.6rem;
+    margin-left: 1rem;
+  }
   .wrapper-texts .descWork {
     font-size: 16px;
     line-height: 26px;
@@ -102,6 +233,85 @@
 }
 
 @media (min-width: 768px) {
+  // start footer section
+
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 2rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 5rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 91%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 46%;
+    margin-top: 42%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2rem;
+    }
+  }
+  .title-footer {
+    font-size: 6rem;
+    margin-left: 1rem;
+  }
+
+  // end footer section
+
   .wrapper-texts .descWork {
     font-size: 16px;
     line-height: 26px;
@@ -155,6 +365,16 @@
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+  // start footer section responsive
+  .wrapper-links {
+    left: 46%;
+    margin-top: 36%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2rem;
+    }
+  }
+  // end footer section responsive
+
   .wrapper-texts .descWork {
     font-size: 16px;
     line-height: 26px;
@@ -213,6 +433,84 @@
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
+  // start footer section responsive
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 2rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 6rem;
+  }
+
+  .c-border {
+    margin-top: 7rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 94%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 4rem;
+      font-size: 17px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 3rem;
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 50%;
+    margin-top: 30%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2.5rem;
+    }
+  }
+  .title-footer {
+    font-size: 7.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+  // end footer section responsive
+
   .greenBg {
     .preloader-title {
       font-size: 3rem;
@@ -262,6 +560,101 @@
 
 // XX-Large devices (larger desktops, 1400px and up)
 @media (min-width: 1400px) {
+  // start footer section responsive
+
+  .wrapper-descs {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 22px;
+      }
+      .desc-left-desc-footer {
+        font-size: 20px;
+        margin-top: 1rem;
+        line-height: 25px;
+        font-family: "GH Serif";
+        font-weight: 600;
+        width: 200px;
+      }
+    }
+    .right-desc {
+      .title-right-desc-footer {
+        font-size: 22px;
+        margin-top: 1rem;
+      }
+      .desc-right-desc-footer {
+        font-size: 20px;
+        margin-top: 1rem;
+        line-height: 25px;
+        font-family: "GH Serif";
+        font-weight: 600;
+        width: 175px;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 5rem;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 5.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 20px;
+    text-align: end;
+    margin-right: 5rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 6rem;
+  }
+
+  .c-border {
+    margin-top: 8rem;
+    &::after {
+      left: 6rem;
+      top: 0rem;
+      height: 1px;
+      width: 89%;
+    }
+    p {
+      margin-left: 5rem;
+      margin-top: 5rem;
+      font-size: 17px;
+    }
+    .wrapper-email {
+      left: 5rem;
+      top: 2rem;
+      a {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 50%;
+    margin-top: 30%;
+    .footer-link-to-contact {
+      font-size: 2.5rem;
+    }
+  }
+  .title-footer {
+    font-size: 7.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+
+  // end footer section responsive
   .take {
     color: white;
     font-size: 8rem;
@@ -274,7 +667,6 @@
     transform: translateY(80px);
     clip-path: inset(0% 0% 100% 0%);
   }
-
   .number16 {
     color: white;
     font-size: 8rem;
@@ -287,7 +679,6 @@
     transform: translateY(80px);
     clip-path: inset(0% 0% 100% 0%);
   }
-
   .look {
     color: white;
     font-size: 8rem;
@@ -300,7 +691,6 @@
     transform: translateY(80px);
     clip-path: inset(0% 0% 100% 0%);
   }
-
   .number22 {
     color: white;
     font-size: 8rem;
@@ -313,7 +703,6 @@
     transform: translateY(80px);
     clip-path: inset(0% 0% 100% 0%);
   }
-
   .ourWork {
     color: white;
     font-size: 8rem;
@@ -340,7 +729,6 @@
     font-weight: 500;
     width: 100%;
   }
-
   .wrapper-logo {
     svg {
       height: 12.5%;
@@ -381,7 +769,6 @@
       }
     }
   }
-
   .greenBg {
     .preloader-title {
       font-size: 3rem;

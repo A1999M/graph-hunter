@@ -3,12 +3,12 @@ import "./Footer.scss";
 export default function Footer() {
   return (
     <>
-      <div className="col-12 col-lg-6">
+      <div className="col-12 col-md-6">
         <p className="title-footer">
           LET'S <span>CONNECT</span>{" "}
         </p>
       </div>
-      <div className="col-12 col-lg-6 text-center">
+      <div className="col-12 col-md-6 text-center">
         <div className="wrapper-links">
           <a href="##" className="footer-link-to-contact">
             contact us
@@ -18,7 +18,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <div className="col-12 col-lg-12 c-border mt-8rem">
+      <div className="col-12 col-md-12 c-border">
         <p>SEND US AN EMAIL</p>
         <div className="wrapper-email">
           <a href="##">HELLO@GRAPHICHUNTERS.COM</a>
@@ -26,7 +26,7 @@ export default function Footer() {
         </div>
       </div>
       {/* footer's our officers socials  */}
-      <div className="col-6 mt-8rem">
+      <div className="col-12 our-officers col-md-6">
         <p className="title-our-officers">our officers</p>
         <div className="wrapper-descs">
           <div className="left-desc">
@@ -43,7 +43,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="col-6 mt-8rem mb-5rem">
+      <div className="d-none d-md-block wrapper-lastest-socials col-md-6">
         <p className="title-social">social</p>
         <div className="footer-nav">
           <div className="footer-nav-items-linkedin">
