@@ -18,7 +18,7 @@
     left: 6rem;
     content: "";
     width: 89%;
-    height: 2px;
+    height: 1px;
     background-color: black;
   }
   .wrapper-email {
@@ -76,13 +76,13 @@
 }
 
 .wrapper-descs {
+  margin-left: 5rem;
   margin-top: 2rem;
   display: flex;
   align-items: center;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   .left-desc {
-    margin-right: 10rem;
     .title-left-desc-footer {
       font-size: 22px;
       font-weight: 600;

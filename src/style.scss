@@ -1,5 +1,5 @@
 @import url(./reset.scss);
-@import url(./locomotive-scroll.css);
+@import url(./responsive.scss);
 
 body {
   background-color: black;
@@ -93,7 +93,6 @@ body {
 
 .bg-white {
   background-color: aliceblue;
-  height: 100vh;
 }
 
 .mt-5rem {

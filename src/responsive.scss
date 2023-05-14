@@ -1,0 +1,777 @@
+@media (max-width: 576px) {
+  // start footer section responsive
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 23rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 86%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 6%;
+    margin-top: 6%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 1.7rem;
+    }
+  }
+  .title-footer {
+    font-size: 4.6rem;
+    margin-left: 1rem;
+  }
+  // end footer section responsive
+
+  .wrapper-texts .descWork {
+    font-size: 15px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 1.8rem;
+    }
+  }
+  .take {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .look {
+    font-size: 4.2rem;
+    margin-left: 2.2rem;
+  }
+  .ourWork {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .landing-desc {
+    line-height: 27px;
+    font-size: 14px;
+    margin-left: 3rem;
+    width: 200px;
+  }
+  .number16 {
+    font-size: 4rem;
+    margin-left: 7rem;
+  }
+  .number22 {
+    margin-right: 3rem;
+    font-size: 4rem;
+  }
+  .wrapper-logo svg {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 21%;
+  }
+  .wrapper-nav {
+    margin-top: 2.6rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (min-width: 576px) {
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 23rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 86%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 3%;
+    margin-top: 6%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 1.7rem;
+    }
+  }
+  .title-footer {
+    font-size: 4.6rem;
+    margin-left: 1rem;
+  }
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 1.8rem;
+    }
+  }
+  .take {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .look {
+    font-size: 4.5rem;
+    margin-left: 2.2rem;
+  }
+  .ourWork {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .landing-desc {
+    line-height: 27px;
+    font-size: 14px;
+    margin-left: 3rem;
+    width: 200px;
+  }
+  .number16 {
+    font-size: 4rem;
+    margin-left: 7rem;
+  }
+  .number22 {
+    margin-right: 3rem;
+    font-size: 4rem;
+  }
+  .wrapper-logo svg {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 21%;
+  }
+  .wrapper-nav {
+    margin-top: 2.6rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  // start footer section
+
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 2rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 5rem;
+  }
+
+  .c-border {
+    margin-top: 5rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 91%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 3rem;
+      font-size: 14px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 2rem;
+      a {
+        font-size: 1.7rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 46%;
+    margin-top: 42%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2rem;
+    }
+  }
+  .title-footer {
+    font-size: 6rem;
+    margin-left: 1rem;
+  }
+
+  // end footer section
+
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 2.5rem;
+    }
+  }
+  .take {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .look {
+    font-size: 4.5rem;
+    margin-left: 2.2rem;
+  }
+  .ourWork {
+    font-size: 4.5rem;
+    margin-left: 2rem;
+  }
+  .landing-desc {
+    line-height: 27px;
+    font-size: 14px;
+    margin-left: 3rem;
+    width: 100%;
+  }
+  .number16 {
+    font-size: 5rem;
+    margin-left: 7rem;
+  }
+  .number22 {
+    margin-right: 5rem;
+    font-size: 5rem;
+  }
+  .wrapper-logo svg {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 16.5%;
+  }
+  .wrapper-nav {
+    margin-top: 2.6rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  // start footer section responsive
+  .wrapper-links {
+    left: 46%;
+    margin-top: 36%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2rem;
+    }
+  }
+  // end footer section responsive
+
+  .wrapper-texts .descWork {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .wrapper-texts .descWork {
+    font-size: 17px;
+    line-height: 28px;
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 2.5rem;
+    }
+  }
+  .take {
+    font-size: 6rem;
+    margin-left: 4.3rem;
+  }
+  .look {
+    font-size: 6rem;
+    margin-left: 5rem;
+  }
+  .ourWork {
+    font-size: 6rem;
+    margin-left: 5rem;
+  }
+  .landing-desc {
+    line-height: 28px;
+    font-size: 17px;
+    margin-left: 6rem;
+    width: 100%;
+  }
+  .number16 {
+    font-size: 6rem;
+    margin-left: 11rem;
+  }
+  .number22 {
+    margin-right: 6rem;
+    font-size: 6rem;
+  }
+  .wrapper-logo svg {
+    margin-top: 3rem;
+    margin-left: 4rem;
+    width: 14.5%;
+    margin-left: 5rem;
+  }
+  .wrapper-nav {
+    margin-top: 3.5rem;
+    margin-right: 3rem;
+    .nav-items {
+      a {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  // start footer section responsive
+  .wrapper-descs {
+    margin-left: 2rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 20px;
+      }
+    }
+    .right-desc {
+      .desc-right-desc-footer {
+        font-size: 17px;
+        margin-top: 1rem;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 2rem;
+    text-transform: uppercase;
+    font-size: 17px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 2.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 17px;
+    text-align: end;
+    margin-right: 2rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 6rem;
+  }
+
+  .c-border {
+    margin-top: 7rem;
+    &::after {
+      left: 2rem;
+      top: 0rem;
+      height: 1px;
+      width: 94%;
+    }
+    p {
+      margin-left: 2rem;
+      margin-top: 4rem;
+      font-size: 17px;
+    }
+    .wrapper-email {
+      left: 2rem;
+      top: 3rem;
+      a {
+        font-size: 2rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 50%;
+    margin-top: 30%;
+    .wrapper-links .footer-link-to-contact {
+      font-size: 2.5rem;
+    }
+  }
+  .title-footer {
+    font-size: 7.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+  // end footer section responsive
+
+  .greenBg {
+    .preloader-title {
+      font-size: 3rem;
+    }
+  }
+  .take {
+    font-size: 7rem;
+    margin-left: 4rem;
+  }
+  .look {
+    font-size: 7rem;
+    margin-left: 5rem;
+  }
+  .ourWork {
+    font-size: 7rem;
+    margin-left: 5rem;
+  }
+  .landing-desc {
+    line-height: 28px;
+    font-size: 17px;
+    margin-left: 6rem;
+    width: 100%;
+  }
+  .number16 {
+    font-size: 6rem;
+    margin-left: 15rem;
+  }
+  .number22 {
+    margin-right: 5rem;
+    font-size: 6rem;
+  }
+  .wrapper-logo svg {
+    margin-top: 3rem;
+    margin-left: 4rem;
+  }
+  .wrapper-nav {
+    margin-top: 3.3rem;
+    margin-right: 3rem;
+  }
+
+  //
+  .wrapper-texts .descWork {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) {
+  // start footer section responsive
+
+  .wrapper-descs {
+    margin-left: 5rem;
+    margin-top: 2rem;
+    .left-desc {
+      .title-left-desc-footer {
+        font-size: 22px;
+      }
+      .desc-left-desc-footer {
+        font-size: 20px;
+        margin-top: 1rem;
+        line-height: 25px;
+        font-family: "GH Serif";
+        font-weight: 600;
+        width: 200px;
+      }
+    }
+    .right-desc {
+      .title-right-desc-footer {
+        font-size: 22px;
+        margin-top: 1rem;
+      }
+      .desc-right-desc-footer {
+        font-size: 20px;
+        margin-top: 1rem;
+        line-height: 25px;
+        font-family: "GH Serif";
+        font-weight: 600;
+        width: 175px;
+      }
+    }
+  }
+  .title-our-officers {
+    margin-left: 5rem;
+    text-transform: uppercase;
+    font-size: 20px;
+  }
+  .our-officers {
+    margin-bottom: 4rem;
+    margin-top: 6rem;
+  }
+
+  .footer-nav {
+    text-align: end;
+    margin-right: 5.2rem;
+    margin-top: 2rem;
+  }
+
+  .title-social {
+    font-size: 20px;
+    text-align: end;
+    margin-right: 5rem;
+  }
+
+  .wrapper-lastest-socials {
+    margin-top: 6rem;
+  }
+
+  .c-border {
+    margin-top: 8rem;
+    &::after {
+      left: 6rem;
+      top: 0rem;
+      height: 1px;
+      width: 89%;
+    }
+    p {
+      margin-left: 5rem;
+      margin-top: 5rem;
+      font-size: 17px;
+    }
+    .wrapper-email {
+      left: 5rem;
+      top: 2rem;
+      a {
+        font-size: 3rem;
+      }
+    }
+  }
+
+  .wrapper-links {
+    left: 50%;
+    margin-top: 30%;
+    .footer-link-to-contact {
+      font-size: 2.5rem;
+    }
+  }
+  .title-footer {
+    font-size: 7.5rem;
+    margin-top: 4rem;
+    margin-left: 3rem;
+  }
+
+  // end footer section responsive
+  .take {
+    color: white;
+    font-size: 8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "GH Serif";
+    font-weight: 500;
+    margin-left: 2rem;
+    opacity: 0;
+    transform: translateY(80px);
+    clip-path: inset(0% 0% 100% 0%);
+  }
+  .number16 {
+    color: white;
+    font-size: 8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    margin-left: 10rem;
+    opacity: 0;
+    transform: translateY(80px);
+    clip-path: inset(0% 0% 100% 0%);
+  }
+  .look {
+    color: white;
+    font-size: 8rem;
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "GH Serif";
+    margin-left: 2rem;
+    opacity: 0;
+    transform: translateY(80px);
+    clip-path: inset(0% 0% 100% 0%);
+  }
+  .number22 {
+    color: white;
+    font-size: 8rem;
+    display: inline-block;
+    font-family: "Times New Roman", Times, serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 10rem;
+    opacity: 0;
+    transform: translateY(80px);
+    clip-path: inset(0% 0% 100% 0%);
+  }
+  .ourWork {
+    color: white;
+    font-size: 8rem;
+    opacity: 0;
+    transform: translateY(80px);
+    clip-path: inset(0% 0% 100% 0%);
+    display: inline-block;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: "Times New Roman", Times, serif;
+    margin-left: 2rem;
+  }
+  .landing-desc {
+    font-family: "GH Serif";
+    opacity: 0;
+    clip-path: inset(0% 0% 100% 0%);
+    transform: translateY(50px);
+    font-size: 19px;
+    margin-top: 2rem;
+    margin-left: 3rem;
+    display: inline-block;
+    text-transform: capitalize;
+    color: white;
+    font-weight: 500;
+    width: 100%;
+  }
+  .wrapper-logo {
+    svg {
+      height: 12.5%;
+      width: 12.5%;
+      margin-top: 4rem;
+      margin-left: 2rem;
+      clip-path: inset(100% 0% 0% 0%);
+      opacity: 0;
+    }
+  }
+  .wrapper-nav {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-direction: row;
+    margin-right: 6rem;
+    margin-top: 2rem;
+    list-style: none;
+    z-index: 5;
+    //  nav items style
+    .nav-items {
+      overflow: hidden;
+      a {
+        color: white;
+        text-transform: uppercase;
+        font-family: "GH Serif";
+        text-decoration: none;
+        display: inline-block;
+        font-size: 25px;
+        padding: 0.5rem 0;
+        margin: 0 0.5rem;
+        cursor: pointer;
+        opacity: 0;
+        transition: all 0.35s ease;
+        &:hover {
+          color: #9bfa00;
+        }
+      }
+    }
+  }
+  .greenBg {
+    .preloader-title {
+      font-size: 3rem;
+    }
+  }
+}

@@ -10,7 +10,7 @@ import "./OurWorks.scss";
 export default function OurWorks() {
   return (
     <>
-      <div className="col-12 col-lg-6 mt-10rem">
+      <div className="col-12 col-md-6 mt-10rem">
         <EachItem
           title={"knbv"}
           imageSrc={knbv}
@@ -20,7 +20,7 @@ export default function OurWorks() {
           bgColor={"#0e2329"}
         />
       </div>
-      <div className="col-12 col-lg-6 mt-10rem">
+      <div className="col-12 col-md-6 mt-10rem">
         <EachItem
           title={"ea sports"}
           imageSrc={comicBoy}
@@ -30,7 +30,7 @@ export default function OurWorks() {
           bgColor="#F36329"
         />
       </div>
-      <div className="col-12 col-lg-6 mt-5">
+      <div className="col-12 col-md-6 mt-5">
         <EachItem
           title={"AFC AJAX"}
           imageSrc={ajax}
@@ -40,7 +40,7 @@ export default function OurWorks() {
           bgColor={"#A4A415"}
         />
       </div>
-      <div className="col-12 col-lg-6 mt-5">
+      <div className="col-12 col-md-6 mt-5">
         <EachItem
           title={"KNVB NIKE"}
           imageSrc={nike}
@@ -50,7 +50,7 @@ export default function OurWorks() {
           bgColor={"#FF5000"}
         />
       </div>
-      <div className="col-12 col-lg-6 mt-5">
+      <div className="col-12 col-md-6 mt-5">
         <EachItem
           title={"UEFA"}
           imageSrc={moon}
@@ -60,7 +60,7 @@ export default function OurWorks() {
           bgColor={"#257DB8"}
         />
       </div>
-      <div className="col-12 col-lg-6 mt-5">
+      <div className="col-12 col-md-6 mt-5">
         <EachItem
           title={"EREDIVISIE"}
           imageSrc={phone}
