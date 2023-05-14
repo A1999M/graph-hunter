@@ -127,7 +127,7 @@ export default function JobsHeader() {
           </a>
         </div>
       </div>
-      <div className="col-12 col-lg-6">
+      <div className="col-6 col-lg-6">
         <ul className="wrapper-nav-jobs">
           <li className="nav-items">
             <NavLink ref={jobWorkRef} to={"/"}>
