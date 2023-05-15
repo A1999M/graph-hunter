@@ -14,7 +14,11 @@ export default function Hired() {
         <EachJob title={"project manager"} location={"Amsterdam / Den Bosch"} />
       </div>
       <div className="col-12 col-lg-12">
-        <EachJob title={"open application"} location={"remote"} />
+        <EachJob
+          title={"open application"}
+          borderBottom={"c-border-bottom"}
+          location={"remote"}
+        />
       </div>
     </>
   );

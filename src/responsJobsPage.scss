@@ -85,6 +85,24 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 35px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }
 @media (min-width: 576px) {
   // start responsive job's page header
@@ -173,6 +191,24 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 30px;
+      margin-left: 35px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }
 @media (min-width: 768px) {
   // start responsive job's page header
@@ -261,6 +297,24 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 66px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }
 @media (min-width: 992px) {
   // start responsive job's page header
@@ -349,6 +403,24 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 40px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 20px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }
 @media (min-width: 1200px) {
   // start responsive job's page header
@@ -437,6 +509,24 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 50px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 20px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }
 @media (min-width: 1400px) {
   // start responsive job's page header
@@ -482,7 +572,7 @@
     align-items: flex-start;
     flex-direction: row;
     justify-content: flex-end;
-    padding: 5rem 0;
+    padding: 6rem 0;
     .title-job {
       margin-left: 33px;
       font-size: 5rem;
@@ -525,4 +615,22 @@
     }
   }
   // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 9rem;
+    .recent-works {
+      font-size: 34px;
+      margin-left: 55px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 24px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
 }

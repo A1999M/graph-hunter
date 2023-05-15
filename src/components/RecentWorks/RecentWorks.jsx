@@ -7,18 +7,18 @@ export default function RecentWorks() {
   return (
     <>
       <div className="container-fluid">
-        <div className="row mt-5rem">
-          <div className="col-12 col-lg-6">
+        <div className="row recent-post-titles">
+          <div className="col-12 col-sm-6">
             <p className="recent-works">recent works</p>
           </div>
-          <div className="col-12 col-lg-6">
+          <div className="d-none d-sm-block col-sm-6">
             <div className="wrapper-overview">
               <span className="overview">overview (6)</span>
               <span className="overview-purple">overview (6)</span>
             </div>
           </div>
         </div>
-        <div className="row mt-5rem">
+        <div className="row recent-posts">
           <div className="col-12 col-lg-6">
             <EachItem
               title={"knbv"}
