@@ -4,7 +4,7 @@ import "./Hired.scss";
 export default function Hired() {
   return (
     <>
-      <div className="col-12 col-lg-12 mt-8rem">
+      <div className="col-12 col-lg-12 senior-de">
         <EachJob title={"SENIOR DESIGNER"} location={"Amsterdam / Den Bosch"} />
       </div>
       <div className="col-12 col-lg-12">
@@ -14,7 +14,11 @@ export default function Hired() {
         <EachJob title={"project manager"} location={"Amsterdam / Den Bosch"} />
       </div>
       <div className="col-12 col-lg-12">
-        <EachJob title={"open application"} location={"remote"} />
+        <EachJob
+          title={"open application"}
+          borderBottom={"c-border-bottom"}
+          location={"remote"}
+        />
       </div>
     </>
   );
