@@ -32,6 +32,59 @@
     width: 300px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 2rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 38px;
+      font-size: 2.5rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
 @media (min-width: 576px) {
   // start responsive job's page header
@@ -67,6 +120,59 @@
     width: 300px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 2rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 38px;
+      font-size: 2.5rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
 @media (min-width: 768px) {
   // start responsive job's page header
@@ -102,6 +208,59 @@
     width: 300px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 3rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
 @media (min-width: 992px) {
   // start responsive job's page header
@@ -137,6 +296,59 @@
     width: 300px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 3rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
 @media (min-width: 1200px) {
   // start responsive job's page header
@@ -172,6 +384,59 @@
     width: 330px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 4rem;
+    }
+    .wrapper-descs {
+      width: 40%;
+      padding-left: 2.5rem;
+      margin-top: 1rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 18px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 19px;
+          right: 3rem;
+        }
+        span {
+          top: 0.6rem;
+          font-size: 19px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
 @media (min-width: 1400px) {
   // start responsive job's page header
@@ -207,4 +472,57 @@
     width: 330px;
   }
   // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 5rem;
+    }
+    .wrapper-descs {
+      width: 40%;
+      padding-left: 2.5rem;
+      margin-top: 1rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 19px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 21px;
+          right: 3rem;
+        }
+        span {
+          top: 0.6rem;
+          font-size: 21px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
 }
