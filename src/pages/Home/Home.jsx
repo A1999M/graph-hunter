@@ -3,9 +3,7 @@ import PreLoader from "../../components/PreLoader";
 import OurWorks from "../../components/OurWorks";
 import Footer from "../../components/Footer";
 import Scrollbar from "smooth-scrollbar";
-import transition from "../../assets/images/transitionPage3.png";
 import Overscrollplugin from "smooth-scrollbar/plugins/overscroll";
-import { motion } from "framer-motion";
 import "./Home.scss";
 
 export default function Home() {

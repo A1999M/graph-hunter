@@ -48,10 +48,11 @@ export default function EachJob({ title, location, borderBottom, animation }) {
   return (
     <>
       <div
+        data-hover="true"
         ref={wrapperEachJobRef}
         className={`wrapper each-job-wraper ${borderBottom}`}
       >
-        <p ref={titleJob} className="title-job">
+        <p data-hover="true" ref={titleJob} className="title-job">
           {title}
         </p>
         <div className="wrapper-descs">
@@ -59,8 +60,10 @@ export default function EachJob({ title, location, borderBottom, animation }) {
             {location}
           </span>
           <span ref={moreJobRef} className="more">
-            <span>more info</span>
-            <span className="purple-more">more info</span>
+            <span data-hover="true">more info</span>
+            <span data-hover="true" className="purple-more">
+              more info
+            </span>
           </span>
         </div>
       </div>

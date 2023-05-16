@@ -261,7 +261,7 @@ export default function PreLoader() {
         </ul>
       </div>
       <div className="col-12 col-sm-6 mt-5rem">
-        <span ref={takeRef} className="take">
+        <span data-hover="true" ref={takeRef} className="take">
           take a
         </span>
       </div>
@@ -273,7 +273,7 @@ export default function PreLoader() {
       </div>
 
       <div className="col-12 col-sm-8 col-md-6">
-        <span ref={lookRef} className="look">
+        <span data-hover="true" ref={lookRef} className="look">
           look at
         </span>
       </div>
@@ -283,7 +283,7 @@ export default function PreLoader() {
         </span>
       </div>
       <div className="col-12 col-sm-12">
-        <span ref={ourWorkRef} className="ourWork">
+        <span data-hover="true" ref={ourWorkRef} className="ourWork">
           our work
         </span>
       </div>

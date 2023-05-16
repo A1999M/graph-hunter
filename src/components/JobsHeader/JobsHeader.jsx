@@ -150,17 +150,17 @@ export default function JobsHeader() {
         </ul>
       </div>
       <div className="col-12 col-lg-12 mt-8rem">
-        <p ref={joinRef} className="join">
+        <p data-hover="true" ref={joinRef} className="join">
           JOIN<span>&nbsp;</span>THE
         </p>
       </div>
       <div className="col-12 col-lg-12">
-        <p ref={collectiveRef} className="collective">
+        <p data-hover="true" ref={collectiveRef} className="collective">
           COLLECTIVE®
         </p>
       </div>
       <div className="col-12 mt-5rem">
-        <p ref={jobDescRef} className="desc-jobHeader">
+        <p data-hover="true" ref={jobDescRef} className="desc-jobHeader">
           We are a collective of highly talented creatives sharing one goal:
           developing the best visual productions in sports.
         </p>

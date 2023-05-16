@@ -136,6 +136,7 @@ export default function EachItem({
             className="overlayBh"
           ></div>
           <img
+            data-hover="true"
             className="image-work"
             ref={imageRef}
             src={imageSrc}
@@ -143,8 +144,9 @@ export default function EachItem({
           />
         </div>
         <div className="wrapper-texts">
-          <div className="titles">
+          <div data-hover="true" className="titles">
             <p
+              data-hover="true"
               style={{ color: color }}
               className="titleWork"
               ref={titleWorkRef}
@@ -152,6 +154,7 @@ export default function EachItem({
               {title}
             </p>
             <p
+              data-hover="true"
               style={{ color: hoverColor }}
               ref={greenTitle}
               className="greenTitle"
