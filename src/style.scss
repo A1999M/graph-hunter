@@ -1,2 +1,108 @@
 @import url(./reset.scss);
-@import url(./locomotive-scroll.css);
+@import url(./responsive.scss);
+@import url(./responsJobsPage.scss);
+
+body {
+  background-color: black;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  cursor: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bold;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Bold.woff),
+    url(./assets/fonts/ggsans-Bold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bold;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-BoldItalic.woff),
+    url(./assets/fonts/ggsans-BoldItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bolder;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-ExtraBold.woff),
+    url(./assets/fonts/ggsans-ExtraBold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: bolder;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-ExtraBoldItalic.woff),
+    url(./assets/fonts/ggsans-ExtraBoldItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 500;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Medium.woff),
+    url(./assets/fonts/ggsans-Medium.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 500;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-MediumItalic.woff),
+    url(./assets/fonts/ggsans-MediumItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: normal;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Normal.woff),
+    url(./assets/fonts/ggsans-Normal.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: normal;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-NormalItalic.woff),
+    url(./assets/fonts/ggsans-NormalItalic.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 600;
+  font-style: normal;
+  src: url(./assets/fonts/ggsans-Semibold.woff),
+    url(./assets/fonts/ggsans-Semibold.woff2);
+}
+@font-face {
+  font-family: "GH Serif";
+  font-weight: 600;
+  font-style: italic;
+  src: url(./assets/fonts/ggsans-SemiboldItalic.woff),
+    url(./assets/fonts/ggsans-SemiboldItalic.woff2);
+}
+
+.mt-10rem {
+  margin-top: 10rem;
+}
+.mt-8rem {
+  margin-top: 8rem;
+}
+.mt-6rem {
+  margin-top: 6rem;
+}
+
+.bg-white {
+  background-color: aliceblue;
+}
+
+.mt-5rem {
+  margin-top: 5rem;
+}
+.mb-5rem {
+  margin-bottom: 5rem;
+}
+.c-border-bottom {
+  border-bottom: 1px solid black;
+}

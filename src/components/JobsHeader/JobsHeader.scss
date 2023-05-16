@@ -1,0 +1,47 @@
+.join {
+  color: black;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: "GH Serif";
+  font-weight: 500;
+  margin-left: 2rem;
+}
+.collective {
+  color: #000;
+  font-size: 8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-left: 30rem;
+  font-weight: 100;
+}
+.desc-jobHeader {
+  color: #000;
+  font-size: 18px;
+  font-family: "GH Serif";
+  font-weight: 500;
+  text-transform: capitalize;
+  margin-left: 3rem;
+  width: 375px;
+  line-height: 31px;
+  opacity: 1;
+}
+
+.wrapper-nav-jobs {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 6rem;
+  margin-top: 4rem;
+  list-style: none;
+  //  nav items style
+}
+.wrapper-logo-jobs {
+  svg {
+    height: 12.5%;
+    width: 12.5%;
+    margin-top: 4rem;
+    margin-left: 2rem;
+  }
+}
