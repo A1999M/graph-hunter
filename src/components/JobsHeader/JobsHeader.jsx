@@ -47,7 +47,7 @@ export default function JobsHeader() {
           "custom",
           "M0,0,C0,0,0.013,0.597,0.294,0.848,0.52,1.05,1,1,1,1"
         ),
-        delay: 0.65,
+        delay: 0.55,
       }
     );
     tl.from(
