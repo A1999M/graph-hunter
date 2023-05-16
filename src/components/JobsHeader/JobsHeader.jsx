@@ -2,8 +2,14 @@ import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import CustomEase from "../../plugins/CustomEase";
-import { NavLink } from "react-router-dom";
+import { BubblyLink } from "react-bubbly-transitions";
 import "./JobsHeader.scss";
+
+const MyBubblyLink = ({ to = "", text = "" }) => (
+  <BubblyLink to={to} colorStart="#9bfa00" colorEnd="#000">
+    {text}
+  </BubblyLink>
+);
 
 export default function JobsHeader() {
   let joinRef = useRef();
@@ -86,24 +92,30 @@ export default function JobsHeader() {
       "<.2"
     );
     tl.fromTo(
-      jobWorkRef.current,
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[0],
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 0.2,
-        ease: "Power4.easeOut",
+        color: "#000",
+        duration: 0.4,
+        ease: "Back.easeOut",
       },
-      "<0"
+      "<0.05"
     );
     tl.fromTo(
-      jobLinkRef.current,
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[1],
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 0.2,
-        ease: "Power4.easeOut",
+        color: "#000",
+        duration: 0.3,
+        ease: "Power3.easeOut",
       },
-      "<0.1"
+      "<.05"
     );
   });
 
@@ -130,14 +142,10 @@ export default function JobsHeader() {
       <div className="col-6 col-lg-6">
         <ul className="wrapper-nav-jobs">
           <li className="nav-items">
-            <NavLink ref={jobWorkRef} to={"/"}>
-              work
-            </NavLink>
+            <MyBubblyLink ref={jobWorkRef} to="/" text="work" />
           </li>
           <li className="nav-items">
-            <NavLink ref={jobLinkRef} to={"/jobs"}>
-              jobs
-            </NavLink>
+            <MyBubblyLink ref={jobLinkRef} to="/jobs" text="jobs" />
           </li>
         </ul>
       </div>
