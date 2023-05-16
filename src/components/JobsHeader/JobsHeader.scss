@@ -36,23 +36,6 @@
   margin-top: 4rem;
   list-style: none;
   //  nav items style
-  .nav-items {
-    a {
-      display: inline-block;
-      text-decoration: none;
-      color: black;
-      text-transform: uppercase;
-      font-family: "GH Serif";
-      font-size: 25px;
-      padding: 0.5rem 0;
-      margin: 0 0.5rem;
-      cursor: pointer;
-      transition: all 0.35s ease;
-      &:hover {
-        color: #6405ff;
-      }
-    }
-  }
 }
 .wrapper-logo-jobs {
   svg {

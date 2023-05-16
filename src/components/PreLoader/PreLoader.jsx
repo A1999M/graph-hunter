@@ -3,8 +3,14 @@ import PreloaderContext from "../../context/Preloader";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import fadeBg from "../../assets/images/fade.png";
-import { NavLink } from "react-router-dom";
+import { BubblyLink } from "react-bubbly-transitions";
 import "./PreLoader.scss";
+
+const MyBubblyLink = ({ to = "", text = "" }) => (
+  <BubblyLink to={to} colorStart="#9bfa00" colorEnd="#e5e5e5">
+    {text}
+  </BubblyLink>
+);
 
 export default function PreLoader() {
   let [preLoader, setPreLoader] = useContext(PreloaderContext);
@@ -12,8 +18,6 @@ export default function PreLoader() {
   let preLoaderRef = useRef();
   let fadeRef = useRef();
   let greenBg = useRef();
-  let workRef = useRef();
-  let jobsRef = useRef();
   let takeRef = useRef();
   let number16Ref = useRef();
   let lookRef = useRef();
@@ -35,7 +39,7 @@ export default function PreLoader() {
         stagger: 0.016,
         ease: "Power4.easeOut",
         duration: 0.8,
-        delay: 0.3,
+        delay: 0.7,
       });
       tl.to(splitTitle.chars, {
         opacity: 0,
@@ -80,7 +84,7 @@ export default function PreLoader() {
         {
           overflowY: "auto",
           duration: 0.001,
-          delay: 0.3,
+          delay: 0.7,
         },
         "<0"
       );
@@ -95,20 +99,28 @@ export default function PreLoader() {
       "<0"
     );
     // navbar animations
-    tl.to(
-      workRef.current,
+    tl.fromTo(
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[0],
+      { opacity: 0 },
       {
         opacity: 1,
+        color: "#fff",
         duration: 0.4,
         ease: "Back.easeOut",
       },
       "<0.05"
     );
-    tl.to(
-      jobsRef.current,
+    tl.fromTo(
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[1],
+      { opacity: 0 },
       {
         opacity: 1,
         duration: 0.3,
+        color: "#fff",
         ease: "Power3.easeOut",
       },
       "<.05"
@@ -241,20 +253,15 @@ export default function PreLoader() {
       <div className="col-6 col-sm-6">
         <ul className="wrapper-nav">
           <li className="nav-items">
-            <NavLink ref={workRef} to={"/"}>
-              work
-            </NavLink>
+            <MyBubblyLink to={"/"} text="works" />
           </li>
           <li className="nav-items">
-            <NavLink ref={jobsRef} to={"/jobs"}>
-              jobs
-            </NavLink>
+            <MyBubblyLink to={"/jobs"} text="jobs" />
           </li>
         </ul>
       </div>
-
       <div className="col-12 col-sm-6 mt-5rem">
-        <span ref={takeRef} className="take">
+        <span data-hover="true" ref={takeRef} className="take">
           take a
         </span>
       </div>
@@ -266,7 +273,7 @@ export default function PreLoader() {
       </div>
 
       <div className="col-12 col-sm-8 col-md-6">
-        <span ref={lookRef} className="look">
+        <span data-hover="true" ref={lookRef} className="look">
           look at
         </span>
       </div>
@@ -276,7 +283,7 @@ export default function PreLoader() {
         </span>
       </div>
       <div className="col-12 col-sm-12">
-        <span ref={ourWorkRef} className="ourWork">
+        <span data-hover="true" ref={ourWorkRef} className="ourWork">
           our work
         </span>
       </div>

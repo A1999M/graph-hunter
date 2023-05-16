@@ -2,8 +2,14 @@ import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
 import SplitText from "../../plugins/SplitText";
 import CustomEase from "../../plugins/CustomEase";
-import { NavLink } from "react-router-dom";
+import { BubblyLink } from "react-bubbly-transitions";
 import "./JobsHeader.scss";
+
+const MyBubblyLink = ({ to = "", text = "" }) => (
+  <BubblyLink to={to} colorStart="#9bfa00" colorEnd="#000">
+    {text}
+  </BubblyLink>
+);
 
 export default function JobsHeader() {
   let joinRef = useRef();
@@ -41,7 +47,7 @@ export default function JobsHeader() {
           "custom",
           "M0,0,C0,0,0.013,0.597,0.294,0.848,0.52,1.05,1,1,1,1"
         ),
-        delay: 0.65,
+        delay: 0.55,
       }
     );
     tl.from(
@@ -86,24 +92,30 @@ export default function JobsHeader() {
       "<.2"
     );
     tl.fromTo(
-      jobWorkRef.current,
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[0],
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 0.2,
-        ease: "Power4.easeOut",
+        color: "#000",
+        duration: 0.4,
+        ease: "Back.easeOut",
       },
-      "<0"
+      "<0.05"
     );
     tl.fromTo(
-      jobLinkRef.current,
+      document.getElementsByClassName(
+        "react-bubbly-transitions__bubbly-link"
+      )[1],
       { opacity: 0 },
       {
         opacity: 1,
-        duration: 0.2,
-        ease: "Power4.easeOut",
+        color: "#000",
+        duration: 0.3,
+        ease: "Power3.easeOut",
       },
-      "<0.1"
+      "<.05"
     );
   });
 
@@ -130,29 +142,25 @@ export default function JobsHeader() {
       <div className="col-6 col-lg-6">
         <ul className="wrapper-nav-jobs">
           <li className="nav-items">
-            <NavLink ref={jobWorkRef} to={"/"}>
-              work
-            </NavLink>
+            <MyBubblyLink ref={jobWorkRef} to="/" text="work" />
           </li>
           <li className="nav-items">
-            <NavLink ref={jobLinkRef} to={"/jobs"}>
-              jobs
-            </NavLink>
+            <MyBubblyLink ref={jobLinkRef} to="/jobs" text="jobs" />
           </li>
         </ul>
       </div>
       <div className="col-12 col-lg-12 mt-8rem">
-        <p ref={joinRef} className="join">
+        <p data-hover="true" ref={joinRef} className="join">
           JOIN<span>&nbsp;</span>THE
         </p>
       </div>
       <div className="col-12 col-lg-12">
-        <p ref={collectiveRef} className="collective">
+        <p data-hover="true" ref={collectiveRef} className="collective">
           COLLECTIVE®
         </p>
       </div>
       <div className="col-12 mt-5rem">
-        <p ref={jobDescRef} className="desc-jobHeader">
+        <p data-hover="true" ref={jobDescRef} className="desc-jobHeader">
           We are a collective of highly talented creatives sharing one goal:
           developing the best visual productions in sports.
         </p>

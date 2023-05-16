@@ -6,6 +6,7 @@ body {
   background-color: black;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
+  cursor: none;
   &::-webkit-scrollbar {
     display: none;
   }

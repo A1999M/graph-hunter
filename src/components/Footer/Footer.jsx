@@ -4,8 +4,8 @@ export default function Footer() {
   return (
     <>
       <div className="col-12 col-md-6">
-        <p className="title-footer">
-          LET'S <span>CONNECT</span>{" "}
+        <p data-hover="true" className="title-footer">
+          LET'S <span data-hover="true">CONNECT</span>{" "}
         </p>
       </div>
       <div className="col-12 col-md-6 text-center">
@@ -27,7 +27,9 @@ export default function Footer() {
       </div>
       {/* footer's our officers socials  */}
       <div className="col-12 our-officers col-md-6">
-        <p className="title-our-officers">our officers</p>
+        <p data-hover="true" className="title-our-officers">
+          our officers
+        </p>
         <div className="wrapper-descs">
           <div className="left-desc">
             <p className="title-left-desc-footer">DEN BOSCH</p>
@@ -44,7 +46,9 @@ export default function Footer() {
         </div>
       </div>
       <div className="d-none d-md-block wrapper-lastest-socials col-md-6">
-        <p className="title-social">social</p>
+        <p data-hover="true" className="title-social">
+          social
+        </p>
         <div className="footer-nav">
           <div className="footer-nav-items-linkedin">
             <p className="linkedin">linkedin</p>

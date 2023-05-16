@@ -43,22 +43,6 @@ $preLoaderBgc: #9bfa00;
   //  nav items style
   .nav-items {
     overflow: hidden;
-    a {
-      color: white;
-      text-transform: uppercase;
-      font-family: "GH Serif";
-      text-decoration: none;
-      display: inline-block;
-      font-size: 25px;
-      padding: 0.5rem 0;
-      margin: 0 0.5rem;
-      cursor: pointer;
-      opacity: 0;
-      transition: all 0.35s ease;
-      &:hover {
-        color: #9bfa00;
-      }
-    }
   }
 }
 
@@ -148,5 +132,21 @@ $preLoaderBgc: #9bfa00;
     margin-left: 2rem;
     clip-path: inset(100% 0% 0% 0%);
     opacity: 0;
+  }
+}
+
+body .react-bubbly-transitions__bubbly-link {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-family: "GH Serif";
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  padding: 0.5rem 0;
+  margin: 0 0.5rem;
+  cursor: pointer;
+  transition: all 0.35s ease;
+  &:hover {
+    color: #9bfa00;
   }
 }
