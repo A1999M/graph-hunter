@@ -104,7 +104,7 @@
   .wrapper-logo svg {
     margin-top: 2rem;
     margin-left: 1rem;
-    width: 21%;
+    width: 27%;
   }
   .wrapper-nav {
     margin-top: 2.6rem;
@@ -114,6 +114,9 @@
         font-size: 20px;
       }
     }
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 17px;
   }
 }
 @media (min-width: 576px) {
@@ -219,7 +222,7 @@
   .wrapper-logo svg {
     margin-top: 2rem;
     margin-left: 1rem;
-    width: 21%;
+    width: 19%;
   }
   .wrapper-nav {
     margin-top: 2.6rem;
@@ -229,6 +232,9 @@
         font-size: 20px;
       }
     }
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 19px;
   }
 }
 @media (min-width: 768px) {
@@ -334,7 +340,7 @@
   }
   .landing-desc {
     line-height: 27px;
-    font-size: 14px;
+    font-size: 15px;
     margin-left: 3rem;
     width: 100%;
   }
@@ -359,6 +365,9 @@
         font-size: 20px;
       }
     }
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 20px;
   }
 }
 // Large devices (desktops, 992px and up)
@@ -413,19 +422,22 @@
     font-size: 6rem;
   }
   .wrapper-logo svg {
-    margin-top: 3rem;
+    margin-top: 2rem;
     margin-left: 4rem;
     width: 14.5%;
-    margin-left: 5rem;
+    margin-left: 1rem;
   }
   .wrapper-nav {
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     margin-right: 3rem;
     .nav-items {
       a {
         font-size: 22px;
       }
     }
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 21px;
   }
 }
 
@@ -541,18 +553,22 @@
     font-size: 6rem;
   }
   .wrapper-logo svg {
-    margin-top: 3rem;
-    margin-left: 4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    width: 12.5%;
   }
   .wrapper-nav {
-    margin-top: 3.3rem;
+    margin-top: 2.5rem;
     margin-right: 3rem;
   }
 
   //
   .wrapper-texts .descWork {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 28px;
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 23px;
   }
 }
 
@@ -730,9 +746,9 @@
   .wrapper-logo {
     svg {
       height: 12.5%;
-      width: 12.5%;
-      margin-top: 4rem;
-      margin-left: 2rem;
+      width: 11.5%;
+      margin-top: 2rem;
+      margin-left: 1rem;
       clip-path: inset(100% 0% 0% 0%);
       opacity: 0;
     }
@@ -771,5 +787,8 @@
     .preloader-title {
       font-size: 3rem;
     }
+  }
+  body .react-bubbly-transitions__bubbly-link {
+    font-size: 25px;
   }
 }
