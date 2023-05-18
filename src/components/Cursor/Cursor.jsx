@@ -14,7 +14,7 @@ export default function Cursor({ color }) {
       width: "40px",
       height: "40px",
       borderColor: color,
-      backgroundColor: "transparent",
+      backgroundColor: "#f0f8ff00",
       mixBlendMode: "normal",
     },
     hover: {

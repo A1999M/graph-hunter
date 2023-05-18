@@ -5,11 +5,16 @@ import Footer from "../../components/Footer";
 import Hired from "../../components/Hired";
 import RecentWorks from "../../components/RecentWorks";
 import Scrollbar from "smooth-scrollbar";
+import Cursor from "../../components/Cursor";
+import { useLocation } from "react-router";
 import Overscrollplugin from "smooth-scrollbar/plugins/overscroll";
 import "./OurJobs.scss";
 
 export default function OurJobs() {
+  let location = useLocation();
   let [preLoader, setPreLoader] = useContext(PreloaderContext);
+
+  let pathname = location.pathname.slice(1);
 
   let options = {
     damping: 0.08,
