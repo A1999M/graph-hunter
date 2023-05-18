@@ -1,0 +1,11 @@
+.custom_cursor {
+  border-radius: 50%;
+  border: 2px solid #9bfa00;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  will-change: width, height, transform, border;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 20;
+}

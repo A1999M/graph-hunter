@@ -1,0 +1,636 @@
+@media (max-width: 576px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 28.5%;
+      margin-top: 1.3rem;
+      margin-left: 0.5rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 18px;
+      }
+    }
+  }
+  .join {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+  .collective {
+    font-size: 4rem;
+    margin-left: 1rem;
+  }
+  .desc-jobHeader {
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 2rem;
+    width: 300px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 2rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 38px;
+      font-size: 2.5rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 35px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
+@media (min-width: 576px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 21.5%;
+      margin-top: 1.3rem;
+      margin-left: 0.5rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 19px;
+      }
+    }
+  }
+  .join {
+    font-size: 4.7rem;
+    margin-left: 2rem;
+  }
+  .collective {
+    font-size: 4.8rem;
+    margin-left: 3rem;
+  }
+  .desc-jobHeader {
+    font-size: 16px;
+    line-height: 22px;
+    margin-left: 3rem;
+    width: 300px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 2rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 38px;
+      font-size: 2.5rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 1rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 30px;
+      margin-left: 35px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
+@media (min-width: 768px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 17.5%;
+      margin-top: 1.7rem;
+      margin-left: 1rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 2rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+  .join {
+    font-size: 6rem;
+    margin-left: 2rem;
+  }
+  .collective {
+    font-size: 6rem;
+    margin-left: 6rem;
+  }
+  .desc-jobHeader {
+    font-size: 17px;
+    line-height: 22px;
+    margin-left: 3rem;
+    width: 300px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 3rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 66px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 19px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
+@media (min-width: 992px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 13.5%;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 2.5rem;
+    margin-right: 1rem;
+    .nav-items {
+      a {
+        font-size: 21px;
+      }
+    }
+  }
+  .join {
+    font-size: 7rem;
+    margin-left: 2rem;
+  }
+  .collective {
+    font-size: 7rem;
+    margin-left: 7rem;
+  }
+  .desc-jobHeader {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 3rem;
+    width: 300px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 3rem;
+    }
+    .wrapper-descs {
+      padding-left: 2.5rem;
+      width: 100%;
+      margin-top: 2rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 17px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+        span {
+          top: 1rem;
+          font-size: 17px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 40px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 20px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
+@media (min-width: 1200px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 12.5%;
+      margin-top: 2rem;
+      margin-left: 1rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    .nav-items {
+      a {
+        font-size: 23px;
+      }
+    }
+  }
+  .join {
+    font-size: 8rem;
+    margin-left: 4rem;
+  }
+  .collective {
+    font-size: 8rem;
+    margin-left: 16rem;
+  }
+  .desc-jobHeader {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 3rem;
+    width: 330px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 5rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 4rem;
+    }
+    .wrapper-descs {
+      width: 40%;
+      padding-left: 2.5rem;
+      margin-top: 1rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 18px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 19px;
+          right: 3rem;
+        }
+        span {
+          top: 0.6rem;
+          font-size: 19px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 7rem;
+    .recent-works {
+      font-size: 32px;
+      margin-left: 50px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 20px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
+@media (min-width: 1400px) {
+  // start responsive job's page header
+  .wrapper-logo-jobs {
+    svg {
+      height: 12.5%;
+      width: 12.5%;
+      margin-top: 2.5rem;
+      margin-left: 1.5rem;
+    }
+  }
+  .wrapper-nav-jobs {
+    margin-top: 3rem;
+    margin-right: 2rem;
+    .nav-items {
+      a {
+        font-size: 25px;
+      }
+    }
+  }
+  .join {
+    font-size: 9rem;
+    margin-left: 4rem;
+  }
+  .collective {
+    font-size: 9rem;
+    margin-left: 23rem;
+  }
+  .desc-jobHeader {
+    font-size: 18px;
+    line-height: 25px;
+    margin-left: 3rem;
+    width: 330px;
+  }
+  // end responsive job's page header
+
+  // start hired section respons
+  .senior-de {
+    margin-top: 5rem;
+  }
+  .each-job-wraper.wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 6rem 0;
+    .title-job {
+      margin-left: 33px;
+      font-size: 4.5rem;
+    }
+    .wrapper-descs {
+      width: 40%;
+      padding-left: 2.5rem;
+      margin-top: 1rem;
+      .location {
+        margin-right: 0rem;
+        font-size: 19px;
+      }
+      .more {
+        .purple-more {
+          top: 3rem;
+          font-size: 21px;
+          right: 3rem;
+        }
+        span {
+          top: 0.6rem;
+          font-size: 21px;
+          right: 3rem;
+        }
+      }
+    }
+    &:hover {
+      .title-job {
+        margin-left: 60px;
+      }
+      .wrapper-descs {
+        .more {
+          .purple-more {
+            top: 1rem;
+          }
+          span {
+            top: -3rem;
+          }
+        }
+      }
+    }
+  }
+  // end hired section respons
+
+  // start resppns recent works
+  .recent-post-titles {
+    margin-top: 9rem;
+    .recent-works {
+      font-size: 34px;
+      margin-left: 55px;
+    }
+    .wrapper-overview {
+      .overview {
+        font-size: 24px;
+      }
+    }
+  }
+  .recent-posts {
+    margin-top: 2rem;
+  }
+  // end resppns recent works
+}
