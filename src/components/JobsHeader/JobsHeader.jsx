@@ -16,8 +16,6 @@ export default function JobsHeader() {
   let collectiveRef = useRef();
   let jobDescRef = useRef();
   let jobLogoRef = useRef();
-  let jobWorkRef = useRef();
-  let jobLinkRef = useRef();
 
   useLayoutEffect(() => {
     gsap.registerPlugin(SplitText);
@@ -142,10 +140,10 @@ export default function JobsHeader() {
       <div className="col-6 col-lg-6">
         <ul className="wrapper-nav-jobs">
           <li className="nav-items">
-            <MyBubblyLink ref={jobWorkRef} to="/" text="work" />
+            <MyBubblyLink to="/" text="work" />
           </li>
           <li className="nav-items">
-            <MyBubblyLink ref={jobLinkRef} to="/jobs" text="jobs" />
+            <MyBubblyLink to="/jobs" text="jobs" />
           </li>
         </ul>
       </div>
